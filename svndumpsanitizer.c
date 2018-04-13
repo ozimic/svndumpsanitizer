@@ -23,7 +23,6 @@
 #include <sys/types.h>
 #include <io.h>
 #include <fcntl.h>
-#define fseeko _fseeki64
 #endif
 
 #define _FILE_OFFSET_BITS 64
